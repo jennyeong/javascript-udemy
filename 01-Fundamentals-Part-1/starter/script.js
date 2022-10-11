@@ -11,5 +11,8 @@ console.log(country, continent, population);
 
 // Assignment 2
 let isIsland = true;
-let language;
-console.log(isIsland, population, country, language);
+// let language;
+console.log(isIsland, population, country);
+
+// Assignment 3
+const language = "English";
