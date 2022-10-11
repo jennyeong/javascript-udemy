@@ -22,7 +22,7 @@ const halfPopulation = population / 2;
 console.log(population++);
 console.log(population > 6);
 console.log(population < 33);
-const description =
+let description =
   country +
   " is in " +
   continent +
@@ -50,3 +50,7 @@ const bmiMarkTwo = massMarkTwo / (heightMarkTwo * heightMarkTwo);
 const bmiJohnTwo = massJohnTwo / (heightJohnTwo * heightJohnTwo);
 const markHigherBMITwo = bmiMarkTwo > bmiJohnTwo;
 console.log(bmiMarkTwo, bmiJohnTwo, markHigherBMITwo);
+
+// Assignment 5
+description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+console.log(description);
