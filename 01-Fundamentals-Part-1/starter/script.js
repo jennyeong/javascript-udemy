@@ -54,3 +54,24 @@ console.log(bmiMarkTwo, bmiJohnTwo, markHigherBMITwo);
 // Assignment 5
 description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(description);
+
+// Challenge 2
+if (markHigherBMIOne) {
+  console.log(
+    `Mark's BMI (${bmiMarkOne}) is higher than John's (${bmiJohnOne})!`
+  );
+} else {
+  console.log(
+    `John's BMI (${bmiJohnOne}) is higher than Mark's (${bmiMarkOne})!`
+  );
+}
+
+if (markHigherBMITwo) {
+  console.log(
+    `Mark's BMI (${bmiMarkTwo}) is higher than John's (${bmiJohnTwo})!`
+  );
+} else {
+  console.log(
+    `John's BMI (${bmiJohnTwo}) is higher than Mark's (${bmiMarkTwo})!`
+  );
+}
