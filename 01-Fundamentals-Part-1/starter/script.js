@@ -31,3 +31,22 @@ const description =
   " million people speak " +
   language;
 console.log(description);
+
+// Coding Challenge 1
+const massMarkOne = 78;
+const massJohnOne = 92;
+const heightMarkOne = 1.69;
+const heightJohnOne = 1.95;
+const bmiMarkOne = massMarkOne / (heightMarkOne * heightMarkOne);
+const bmiJohnOne = massJohnOne / (heightJohnOne * heightJohnOne);
+const markHigherBMIOne = bmiMarkOne > bmiJohnOne;
+console.log(bmiMarkOne, bmiJohnOne, markHigherBMIOne);
+
+const massMarkTwo = 95;
+const massJohnTwo = 85;
+const heightMarkTwo = 1.88;
+const heightJohnTwo = 1.76;
+const bmiMarkTwo = massMarkTwo / (heightMarkTwo * heightMarkTwo);
+const bmiJohnTwo = massJohnTwo / (heightJohnTwo * heightJohnTwo);
+const markHigherBMITwo = bmiMarkTwo > bmiJohnTwo;
+console.log(bmiMarkTwo, bmiJohnTwo, markHigherBMITwo);
