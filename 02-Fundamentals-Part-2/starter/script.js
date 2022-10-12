@@ -96,3 +96,14 @@ const checkWinner2 = (dolphins2, koalas2) => {
 };
 
 checkWinner2(dolphins2, koalas2);
+
+// Assignment 14
+const populations = [5, 6, 7, 8];
+console.log(populations.length === 4);
+const percentages = [
+  percentageOfWorld1(populations[0]),
+  percentageOfWorld1(populations[1]),
+  percentageOfWorld1(populations[2]),
+  percentageOfWorld1(populations[3]),
+];
+console.log(percentages);
