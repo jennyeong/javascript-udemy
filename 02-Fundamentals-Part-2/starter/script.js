@@ -37,3 +37,13 @@ const finlandPopulation2 = percentageOfWorld2(6);
 console.log(singaporePopulation2);
 console.log(malaysiaPopulation2);
 console.log(finlandPopulation2);
+
+// Assignment 12
+const percentageOfWorld3 = (population) => (population / 7900) * 100;
+const singaporePopulation3 = percentageOfWorld3(5);
+const malaysiaPopulation3 = percentageOfWorld3(11);
+const finlandPopulation3 = percentageOfWorld3(6);
+
+console.log(singaporePopulation3);
+console.log(malaysiaPopulation3);
+console.log(finlandPopulation3);
