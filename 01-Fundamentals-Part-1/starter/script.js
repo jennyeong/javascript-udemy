@@ -156,6 +156,7 @@ if (
 }
 
 // Assignment 9
+// This can also be done using if else statement
 switch (language) {
   case "chinese" || "mandarin":
     console.log("MOST number of native speakers!");
