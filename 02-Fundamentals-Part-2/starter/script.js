@@ -218,3 +218,28 @@ for (let x = 0; x < listOfNeighbours.length; x++) {
     console.log(`Neighbour: ${listOfNeighbours[x][y]}`);
   }
 }
+
+// Challenge 8
+const bills2 = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips2 = [];
+const total2 = [];
+
+const calcTip2 = (bills2) =>
+  bills2 >= 50 && bills2 <= 300 ? 0.15 * bills2 : 0.2 * bills2;
+
+for (let i = 0; i < bills2.length; i++) {
+  tips2.push(calcTip2(bills2[i]));
+  total2.push(bills2[i] + tips2[i]);
+}
+console.log(bills2);
+console.log(tips2);
+console.log(total2);
+
+const calcAverage2 = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length;
+};
+console.log(calcAverage2(total2));
