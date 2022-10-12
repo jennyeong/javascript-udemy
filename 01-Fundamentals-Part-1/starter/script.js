@@ -102,3 +102,55 @@ if (population < 50 && language === "English" && isIsland) {
 } else {
   console.log(`${country} does not meet your criteria :(`);
 }
+
+// Challenge 3
+// Test 1
+// const dolphins = 96 + 108 + 89;
+// const koalas = 88 + 91 + 110;
+// const avgDolphins = dolphins / 3;
+// const avgKoalas = koalas / 3;
+// const minScore = 100;
+
+// if (avgDolphins === avgKoalas) {
+//   console.log("Round 1 : Its a tie!");
+// } else if (avgDolphins > avgKoalas) {
+//   console.log("Round 1 : Dolphine won!");
+// } else {
+//   console.log("Round 1 : Koalas won!");
+// }
+
+// BONUS 1
+// const dolphins = 97 + 112 + 101;
+// const koalas = 109 + 95 + 123;
+// const avgDolphins = dolphins / 3;
+// const avgKoalas = koalas / 3;
+// const minScore = 100;
+
+// if (avgDolphins === avgKoalas) {
+//   console.log("Round 2 : Its a tie!");
+// } else if (avgDolphins > avgKoalas && avgDolphins >= minScore) {
+//   console.log("Round 2 : Dolphine won!");
+// } else if (avgKoalas > avgDolphins && avgKoalas >= minScore) {
+//   console.log("Round 2 : Koalas won!");
+// }
+
+// BONUS 2
+const dolphins = 97 + 112 + 80;
+const koalas = 109 + 95 + 50;
+const avgDolphins = dolphins / 3;
+const avgKoalas = koalas / 3;
+const minScore = 100;
+
+if (
+  avgDolphins === avgKoalas &&
+  avgDolphins >= minScore &&
+  avgKoalas >= minScore
+) {
+  console.log("Round 3 : Its a tie!");
+} else if (avgDolphins > avgKoalas && avgDolphins >= minScore) {
+  console.log("Round 3 : Dolphine won!");
+} else if (avgKoalas > avgDolphins && avgKoalas >= minScore) {
+  console.log("Round 3 : Koalas won!");
+} else {
+  console.log("Round 3 : No teams win...");
+}
