@@ -193,3 +193,8 @@ myCountry.checkIsland = function () {
 };
 myCountry.checkIsland();
 console.log(myCountry.isIsland);
+
+// Assignment 19
+for (let i = 1; i <= 50; i++) {
+  console.log(`Voter number ${i} is currently voting... 💌`);
+}
