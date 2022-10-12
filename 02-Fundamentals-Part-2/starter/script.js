@@ -117,3 +117,15 @@ const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills);
 console.log(tips);
 console.log(total);
+
+// Assignment 15
+const neighbours = ["Malaysia", "Indonesia", "Thailand", "Vietnam"];
+neighbours.push("Utopia");
+neighbours.pop();
+!neighbours.includes("Germany")
+  ? console.log("Probably not a central European country :D")
+  : console.log("Consider adding Germany to neighbours array.");
+
+const thailand = neighbours.indexOf("Thailand");
+neighbours[thailand] = "thailand";
+console.log(neighbours);
