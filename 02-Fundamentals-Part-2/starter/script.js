@@ -58,3 +58,41 @@ const describePopulation = function (country, population) {
 console.log(describePopulation("Singapore", 5));
 console.log(describePopulation("China", 1441));
 console.log(describePopulation("Finland", 6));
+
+// Challenge 5
+const dolphins1 = 43 + 23 + 71;
+const koalas1 = 65 + 54 + 49;
+const calcAverage = (total) => total / 3;
+
+const checkWinner1 = (dolphins1, koalas1) => {
+  const avgDolphins1 = calcAverage(dolphins1);
+  const avgKoalas1 = calcAverage(koalas1);
+
+  if (avgDolphins1 >= 2 * avgKoalas1) {
+    console.log(`Dolphins won! ${avgDolphins1} vs ${avgKoalas1}`);
+  } else if (avgKoalas1 >= 2 * avgDolphins1) {
+    console.log(`Koalas won! ${avgKoalas1} vs ${avgDolphins1}`);
+  } else {
+    console.log("No team wins...");
+  }
+};
+
+checkWinner1(dolphins1, koalas1);
+
+const dolphins2 = 85 + 54 + 41;
+const koalas2 = 23 + 34 + 27;
+
+const checkWinner2 = (dolphins2, koalas2) => {
+  const avgDolphins2 = calcAverage(dolphins2);
+  const avgKoalas2 = calcAverage(koalas2);
+
+  if (avgDolphins2 >= 2 * avgKoalas2) {
+    console.log(`Dolphins won! ${avgDolphins2} vs ${avgKoalas2}`);
+  } else if (avgKoalas2 >= 2 * avgDolphins2) {
+    console.log(`Koalas won! ${avgKoalas2} vs ${avgDolphins2}`);
+  } else {
+    console.log("No team wins...");
+  }
+};
+
+checkWinner2(dolphins2, koalas2);
