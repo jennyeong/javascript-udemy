@@ -129,3 +129,12 @@ neighbours.pop();
 const thailand = neighbours.indexOf("Thailand");
 neighbours[thailand] = "thailand";
 console.log(neighbours);
+
+// Assignment 16
+const myCountry = {
+  country: "Singapore",
+  capital: "Singapore",
+  language: "English",
+  population: 5,
+};
+console.log(myCountry);
