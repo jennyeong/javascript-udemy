@@ -206,3 +206,15 @@ for (let i = 0; i < populations.length; i++) {
   percentages2.push(percentageOfWorld1(populations[i]));
 }
 console.log(percentages2);
+
+// Assignment 21
+const listOfNeighbours = [
+  ["Canada", "Mexico"],
+  ["Spain"],
+  ["Norway", "Sweden", "Russia"],
+];
+for (let x = 0; x < listOfNeighbours.length; x++) {
+  for (let y = 0; y < listOfNeighbours[x].length; y++) {
+    console.log(`Neighbour: ${listOfNeighbours[x][y]}`);
+  }
+}
