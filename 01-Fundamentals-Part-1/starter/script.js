@@ -176,3 +176,13 @@ switch (language) {
   default:
     console.log("Great language too :D");
 }
+
+// Challenge 4
+let bill = 275;
+let tip = 0;
+
+tip = bill >= 50 && bill <= 300 ? 0.15 * bill : 0.2 * bill;
+let total = bill + tip;
+console.log(
+  `The bill was ${bill}, the tip is ${tip}, and the total value is ${total}`
+);
