@@ -47,3 +47,14 @@ const finlandPopulation3 = percentageOfWorld3(6);
 console.log(singaporePopulation3);
 console.log(malaysiaPopulation3);
 console.log(finlandPopulation3);
+
+// Assignment 13
+const describePopulation = function (country, population) {
+  return `${country} has ${population} million people, which is about ${percentageOfWorld1(
+    population
+  )}% of the world.`;
+};
+
+console.log(describePopulation("Singapore", 5));
+console.log(describePopulation("China", 1441));
+console.log(describePopulation("Finland", 6));
