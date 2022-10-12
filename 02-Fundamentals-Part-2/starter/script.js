@@ -136,5 +136,14 @@ const myCountry = {
   capital: "Singapore",
   language: "English",
   population: 5,
+  neighbours: ["Malaysia", "Indonesia", "Thailand", "Vietnam"],
 };
 console.log(myCountry);
+
+// Assignment 17
+console.log(
+  `${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`
+);
+
+console.log(myCountry.population + 2);
+console.log(myCountry["population"] - 2);
